@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gorditas&family=Kaushan+Script&family=Lato&family=Merriweather&family=Playfair+Display&family=Prata&family=Unna&display=swap');
+:root{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+/* navigation bar */
+.navbar{
+    margin: 20px 20px 0 20px;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.active{
+    margin-left: 90px;
+}
+
+.btn{
+    border-radius: 50px;
+    background: rgb(255,90,125);
+    padding: 10px;
+}
+
+/* home section */
+
+/* service section */
+h1, h2, h3, h4, h5, h6{
+    font-family: gorditas;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255,90,125, 0.19);
+}
+
+.card-title{
+    color: #ff5a7d;
+}
+
+.card-img-top{
+    width: 50%;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.testimonial-title{
+    color: #ff5a7d;
+    font-weight: bolder;
+}
+.testimonial-para{
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+}
+.fa-quote-left, .fa-quote-right{
+    color: #ff5a7d;
+}
+
+/* footer */
+footer{
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255,90,125, 0.19);
+}
+
+footer h5, .links{
+    color: #ff5a7d;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: #ff5a7d;
+}
+
+.section-sub-header{
+    color: #ff5a7d;
+    text-transform: uppercase;
+}
+
+.control-img{
+    margin: 0 0 0 250px;
+}
